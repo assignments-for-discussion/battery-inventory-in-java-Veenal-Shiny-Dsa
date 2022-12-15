@@ -19,6 +19,15 @@ public class Main {
     assert(counts.mediumCount == 3);
     assert(counts.highCount == 1);
     System.out.println("Done counting :)\n");
+    if(counts<310){
+      lowCount+=1;
+    }
+    else if(310<counts<929){
+      mediumCount+=1;
+    }
+    else{
+    highCount+=1;
+    }
   }
 
   public static void main(String[] args) {
