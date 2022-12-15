@@ -29,7 +29,6 @@ public class Main {
     highCount+=1;
     }
   }
-
   public static void main(String[] args) {
     testBucketingByNumberOfCycles();
     System.out.println(counts);
