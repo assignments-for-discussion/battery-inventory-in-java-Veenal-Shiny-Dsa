@@ -32,5 +32,6 @@ public class Main {
 
   public static void main(String[] args) {
     testBucketingByNumberOfCycles();
+    System.out.println(counts);
   }
 }
